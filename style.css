@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    list-style-type: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+html{
+    font-size: 16px;
+}
+header .headersm {
+    margin-top: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .nav{
+    display: flex;
+    
+}
+.logo{
+    margin-left: 24px;
+    width: 72px;
+    height: 19px;
+}
+.meore{
+    padding-left: 30px;
+}
+.mesame{
+    padding-left: 30px;
+}
+.meotxe{
+    padding-left: 30px;
+}
+.mexute{
+    padding-left: 30px;
+}
+.burger{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+ main .main1{
+    text-align: center;
+    margin-top: 32px;
+}
+.main1 p{
+    margin-top: 24px;
+}
+.main1img{
+    width: 100%;
+    height: auto;
+    padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.main11{
+    margin-top: 30px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.main111{
+    margin-top: 22px;
+}
+.main11span{
+    border-radius: 20px;
+    padding: 12px 24px;
+    background-color: black;
+    color: white;
+    margin-top:24px ;
+}
+.headerspan{
+    border-radius: 20px;
+    padding: 12px 24px;
+    background-color: black;
+    color: white;
+    display: none;
+    margin-right: 56px;
+}
+h1 img{
+    width: 40px;
+    height: 40px;
+}
+nav ul{
+    display: none;
+}
+ul a{
+    color: #000000;
+}
+section{
+    text-align: center;
+    background-color:#F3F3F3;
+    padding: 24px;
+}
+section div{
+    margin-top: 54px;
+}
+@media only screen and (min-width: 376px){
+   .burger{
+    display: none;
+   }
+   .nav ul{
+    display: flex;
+    
+   }
+   .headerspan{
+    display: inline;
+   }
+   .logo{
+    width: 87px;
+    height: 27px;
+   }
+
+}
+@media only screen and (min-width: 745px){
+    section{
+        display: flex;
+    }
+    section h1{
+        padding-bottom: 22px;
+    }
+    .section2{
+        padding-left: 66px;
+    }
+    .section3{
+       padding-left: 66px;
+    }
+
+}
+
+
+@media only screen and (min-width:1025px){
+    .main1{
+        display: flex;
+    }
+
+
+}
