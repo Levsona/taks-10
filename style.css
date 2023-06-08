@@ -133,9 +133,45 @@ h4{
     width: 100%;
     height: 500px; 
 }
-h6{
+.mesame div h6{
     display: none;
 }
+footer{
+    background-color:black;
+}
+.footer{
+    display: flex; 
+}
+
+.footer h1{
+    color: white;
+    font-size: 18px;
+    padding-bottom: 16px;
+}
+.img2{
+    width: 100%;
+    height: auto;
+}
+
+.footer p{
+    color:white;
+}
+h5{
+    color: white;
+}
+h6{
+    color: white;
+    font-size: 12px;
+    padding: 5px;
+}
+.footer4{
+    display: none;
+}
+.footer2{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 
 @media only screen and (min-width: 376px){
    .burger{
@@ -152,11 +188,30 @@ h6{
     width: 87px;
     height: 27px;
    }
+  .foooter{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+  }
+  .footer1{
+    padding-left: 100px;
+  }
+  .footer2{
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  br{display: none;}
+ 
+ 
 
 }
 @media only screen and (min-width: 745px){
     section{
         display: flex;
+        justify-content: space-between;
+    }
+    section div{
+        text-align: left;
     }
     section h1{
         padding-bottom: 22px;
@@ -177,6 +232,10 @@ h6{
         height: 96px;
         font-size: 24px;
     }
+    section p{
+        width: 279px;
+    }
+    
 }
 
 
@@ -229,10 +288,22 @@ h6{
     .mesame div{
         background-size: cover;
         background-image: url(assets/image/img44.png);
-        background-repeat:no-repeat;
         width: 1440px;
         height: 566px;
         
     }
+    .main111 p{
+        width: 236px;  
+    }
+    .footer4{
+        display: block;
+        width: 228px;
+        margin-right: 100px;
+    }
+     .footer {
+        
+        justify-content: space-between;
+    }
+    
  
 }
